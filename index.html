@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="description" content="I'm Nic Dacer—also known as nicdcreates. I'm a self-taught front-end web developer building clean, responsive websites with HTML, CSS, and JavaScript. Explore my portfolio and see where code meets creativity.">
+  <meta name="author" content="Nic D">
+  <meta name="keywords" content="Nic D, portfolio, nicdcreates, frontend developer, web developer, creative, CSS, Spck, mobile coder, Pasig, Philippines">
+
+  <title>Nic's Portfolio</title>
+  
+  <!--ionicons-->
+  <!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <img id="logo" src="logo.png" alt="Nic D logo">
+      <button id="projects-btn" onclick="showCustomAlert('🧪 Projects are brewing... Stay tuned!')">Projects</button>
+    </div>
+    
+  </header>
+  <br><br>
+    <aside> <!--Fixed on the left-side-->
+      <div class="sidebar">
+        <img src="Photos/profile.jpeg" id="profile-photo" alt="This is me <3">
+        <h1><b>N!C D</b></h1>
+        <div class="profession">UX/UI Designer & Frontend Developer</div>
+        <br><br>
+       
+      <div class="contact-container">
+        <div class="contact-card">
+          <ion-icon name="mail-outline"></ion-icon>
+          <p><a href="mailto:nicdcreates.tech@gmail.com" target="_blank">Send a Message</a></p>
+        </div>
+        <br>
+        <div class="contact-card">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <br>
+            <p><a href="https://instagram.com/nicdcreates">Follow my Trail</p>
+            </a>
+        </div>
+      </div>
+        <br><br>
+        <button id="download-btn" onclick="showCustomAlert('📜 CV scrolls are not yet available. Soon!')">Download CV</button>
+        <br><br>
+        <div class="location-info">
+          <small>Based in:</small><br>
+          <large><b>Manila, Philippines</b></large>
+        
+      </div>
+    </aside>
+    <br><br>
+    
+  <main class="main-content"> <!--scrollable content-->
+    <h2>Who Cast This Dev? 🪄</h2><br>
+    <div class="about-me">
+      <p class="intro">Once upon a scroll, I was just a curious designer playing with pixels—until I accidentally summoned the ancient powers of code on my phone (thanks, SPCK). Next thing I knew, I was deep in the enchanted forest of frontend development—debugging spells, crafting smooth interfaces, and charming users with thoughtful design.</p><br>
+      
+      <p class="intro">Now? I’m a UX/UI designer-turned-frontend sorceress blending aesthetics with logic, brewing up clean code with a pinch of creativity (and the occasional dramatic sigh at bugs). I’m also on a side quest to master the full-stack realm—because why not wield all the powers?</p>
+    </div>
+    <br><br><br>
+          
+    <h2>✨ Digital Sorcery ✨</h2><br>
+    <h3>Interface Alchemy</h3>
+    <div class="skills-icon-grid">
+      <!-- UX/UI Tools -->
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" title="Figma">
+      <img src="Photos/adobexd-logo.svg" alt="AdobeXD" title="AdobeXD">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" title="Photoshop">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" alt="Illustrator" title="Illustrator">
+      <img src="Photos/canva-logo.svg" alt="Canva">
+    </div><br>
+          <!-- Canva doesn't have a native icon, so you can replace this with a Canva SVG or Instagram-style icon -->
+      <h3>The Dev Realms</h3>
+        <!-- Frontend -->
+    <div class="skills-icon-grid">
+        <ion-icon name="logo-html5" class="html-icon" title="HTML5"></ion-icon>
+        <ion-icon name="logo-css3" class=" css-icon" title="CSS3"></ion-icon>
+        <ion-icon name="logo-javascript" class="js-icon" title="JavaScript"></ion-icon>
+    </div><br>
+      
+    <h3>New Spells In Progress</h3>
+        <!-- Currently Learning -->
+    <div class="skills-icon-grid">
+      <img src="Photos/python-logo.svg" alt="Python" title="Python">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" title="PHP">
+    </div>
+          
+    <br><br><br>
+    
+    <h2>What I do</h2>
+    
+  </main>
+  
+    <!-- Custom alert box -->
+    <div id="custom-alert" class="alert-hidden">
+      <p id="alert-message">Coming soon!</p>
+      <br>
+      <button id="alert-ok" onclick="closeAlert()">Got it!</button>
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
