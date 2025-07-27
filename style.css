@@ -371,7 +371,7 @@ ion-icon {
 .main-content {
   margin-left: 36%;
   padding-right: 40px;
-  padding-top: 40px;
+  padding: 20px;
   min-height: 100vh;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
