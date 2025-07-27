@@ -230,7 +230,7 @@ h1 {
   background-color: none;
   border: 1px solid #F6D0DE;
   border-radius: 25px;
-  padding: 8px 10px;
+  padding: 7px 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -280,8 +280,8 @@ h2 {
 #profile-photo {
   border: 3px solid #51226b;
   padding: 5px 5px;
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   margin-top: 10px;
   border-radius: 50%;
   object-fit: cover;
