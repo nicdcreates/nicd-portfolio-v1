@@ -180,7 +180,7 @@ body {
 .sidebar {
   position: fixed;
   margin-top: 60px;
-  left: 35px;
+  left: 40px;
   width: 30%;
   min-width: 300px;
   max-width: 500px;
@@ -280,8 +280,8 @@ h2 {
 #profile-photo {
   border: 3px solid #51226b;
   padding: 5px 5px;
-  width: 190px;
-  height: 190px;
+  width: 200px;
+  height: 200px;
   margin-top: 10px;
   border-radius: 50%;
   object-fit: cover;
@@ -373,8 +373,8 @@ ion-icon {
   border: 1px solid #51226b;
   box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
   text-align: justify;
-  border-radius: 30px;
-  padding: 35px 25px;
+  border-radius: 35px;
+  padding: 25px 35px;
   margin: 0;
 }
 
