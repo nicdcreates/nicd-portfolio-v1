@@ -321,7 +321,7 @@ h2 {
   object-fit: cover;
   margin-bottom: 5px;
   }
-}/* spent an hour for this wtf*/
+}  /* spent an hour for this wtf*/
 
 
 .intro {
@@ -371,7 +371,7 @@ ion-icon {
 .main-content {
   margin-left: 36%;
   padding-right: 40px;
-  padding: 20px;
+  padding: 40px;
   min-height: 100vh;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
