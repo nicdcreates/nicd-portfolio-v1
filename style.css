@@ -374,8 +374,7 @@ ion-icon {
   margin-left: 35%;
   padding-right: 40px;
   padding: 40px;
-  border-left: 1px solid #ccc;
-  box-shadow: -3px 0 6px rgba(0,0,0,0.3); /* x = left */
+  border-left: 1px solid #51226b;
   min-height: 100vh;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
