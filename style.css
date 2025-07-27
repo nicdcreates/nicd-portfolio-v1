@@ -408,17 +408,13 @@ ion-icon {
     margin-left: 0;
     padding: 25px 30px;
     text-align: justify;
+    font-size: 16px
     display: flex;
     flex-direction: column;
     align-items: center;
     backdrop-filter: blur(20px);
     min-height: auto;
     overflow-y: visible; 
-    
-  }
-  .main-content p {
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
   }
 }
 
@@ -474,8 +470,9 @@ h3 {
 .skills-icon-grid ion-icon,
 .skills-icon-grid img {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #51226b;
-  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  backdrop-filter: blur(20px);
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.2), inset 0 0 5px 3px rgba(255, 255, 255, 0.3);
   padding: 10px 10px;
   font-size: 15px;
   border-radius: 10px;
@@ -490,8 +487,9 @@ h3 {
   .skills-icon-grid ion-icon,
   .skills-icon-grid img {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #51226b;
-  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  backdrop-filter: blur(20px);
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.2), inset 0 0 5px 3px rgba(255, 255, 255, 0.3);
   padding: 7px 7px;
   font-size: 15px;
   border-radius: 10px;
