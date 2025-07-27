@@ -181,7 +181,7 @@ body {
   position: fixed;
   margin-top: 50px;
   left: 40px;
-  width: 28%;
+  width: 25%;
   min-width: 300px;
   max-width: 500px;
   height: calc(100vh-100px);
@@ -369,9 +369,9 @@ ion-icon {
 
 
 .main-content {
-  margin-left: 33%;
-  padding: 20px;
+  margin-left: 35%;
   padding-right: 40px;
+  padding-top: 40px;
   min-height: 100vh;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
