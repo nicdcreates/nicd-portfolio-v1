@@ -390,6 +390,7 @@ ion-icon {
 
 .about-me {
   background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
   box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.1), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
   text-align: justify;
   border-radius: 20px;
