@@ -173,7 +173,7 @@ body {
   position: fixed;
   margin-top: 70px;
   left: 25px;
-  width: 320px;
+  width: 35%;
   height: calc(100vh-90px);
   overflow-y: auto;
   background-color: rgba(255, 255, 255, 0.1); /* <-- 0.1 = very transparent */
@@ -343,7 +343,7 @@ ion-icon {
 
 
 .main-content {
-  margin-left: 340px; 
+  margin-left: 38%; 
   padding: 40px;
   min-height: 100vh;
   overflow-y: auto;
