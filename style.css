@@ -179,17 +179,18 @@ body {
 
 .sidebar {
   position: fixed;
-  margin-top: 60px;
+  margin-top: 50px;
   left: 40px;
-  width: 30%;
+  width: 28%;
   min-width: 300px;
   max-width: 500px;
   height: calc(100vh-100px);
   overflow-y: auto;
   background-color: rgba(255, 255, 255, 0.1); /* <-- 0.1 = very transparent */
-  padding: 20px 15px;
+  padding: 30px 15px;
   backdrop-filter: blur(20px);
-  border-radius: 50px;
+  border-top-right-radius: 110px;
+  border-top-left-radius: 110px;
   border: 1px solid #51226b;
   box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
@@ -213,14 +214,15 @@ body {
 h1 {
   font-size: 40px;
   font-family: 'MuseoModerno', sans-serif;
+  margin: 0;
 }
 
 
 .profession {
   background-color: #51226b;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   border-radius: 15px;
-  padding: 7px 15px;
+  padding: 5px 10px;
   color: #F6A97A;
   font-size: 16px;
 }
@@ -257,7 +259,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: inherit;         /* uses the parent text color */
+  color: inherit;        
 }
 
 
@@ -278,15 +280,20 @@ h2 {
 
 
 #profile-photo {
-  border: 3px solid #51226b;
-  padding: 5px 5px;
+  border: 2px solid #51226b;
+  padding: 3px 3px;
   width: 200px;
   height: 200px;
-  margin-top: 10px;
-  border-radius: 50%;
+  margin-top: 5px;
+  border-top-right-radius: 45%;
+  border-top-left-radius: 45%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
+
+
 
 
 @media (max-width: 768px) {
@@ -302,6 +309,17 @@ h2 {
     align-items: center;
     backdrop-filter: blur(20px);
     border-radius: 50px;
+  }
+
+  #profile-photo {
+  border: 2px solid #51226b;
+  padding: 3px 3px;
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
   }
 }/* spent an hour for this wtf*/
 
@@ -351,8 +369,9 @@ ion-icon {
 
 
 .main-content {
-  margin-left: 33%;
+  margin-left: 36%;
   padding: 40px;
+  padding-right: 40px;
   min-height: 100vh;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
@@ -373,9 +392,9 @@ ion-icon {
   border: 1px solid #51226b;
   box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
   text-align: justify;
-  border-radius: 35px;
+  border-radius: 20px;
   padding: 25px 35px;
-  margin: 0;
+  margin-left: 10px;
 }
 
 
@@ -385,6 +404,7 @@ ion-icon {
     height: auto;
     top: 0;
     left: 0;
+    margin-left: 0;
     padding: 25px 30px;
     text-align: justify;
     display: flex;
