@@ -217,12 +217,13 @@ h1 {
 
 
 .profession {
-  background-color: #51226b;
+  background-color: transparent;
   font-family: 'Raleway', sans-serif;
+  border: 2px solid #51226b;
   border-radius: 15px;
-  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.4);
   padding: 5px 10px;
-  color: #F6A97A;
+  color: #000;
   font-size: 16px;
 }
 
