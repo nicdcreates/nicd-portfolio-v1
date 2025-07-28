@@ -244,7 +244,7 @@ h1 {
 .contact-card:hover {
   cursor: pointer;
   transform: scale(1.07);
-  box-shadow: 3px 0 10px rgba(255, 255, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.2), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.2), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
 }
 
 
