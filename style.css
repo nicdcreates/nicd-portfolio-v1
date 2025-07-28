@@ -212,6 +212,7 @@ h1 {
   font-size: 40px;
   font-family: 'MuseoModerno', sans-serif;
   margin: 0;
+  text-shadow: 3px 0 10px rgba(0, 0, 0, 0.3);
 }
 
 
