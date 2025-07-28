@@ -242,7 +242,7 @@ h1 {
 
 .contact-card:hover {
   transform: scale(1.07);
-  box-shadow: 0 10px 25px rgba(208, 137, 243, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.2), inset 0 0 5px 3px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 25px rgba(208, 137, 243, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(255, 255, 255, 0.2), inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
 }
 
 
