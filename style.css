@@ -354,7 +354,7 @@ ion-icon {
   display: block;
   align-items: center;
   cursor: pointer;
-  box-shadow: none;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.4);
   transition: box-shadow 0.3s linear, transform 0.3s;
 }
 
