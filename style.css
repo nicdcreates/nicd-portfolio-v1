@@ -205,7 +205,7 @@ body {
 .sidebar p {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
-  color: #51226b;
+  color: #F6D0DE;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -223,6 +223,7 @@ h1 {
   background-color: #51226b;
   font-family: 'Raleway', sans-serif;
   border-radius: 15px;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
   color: #F6A97A;
   font-size: 16px;
@@ -291,6 +292,7 @@ h2 {
   border-top-left-radius: 45%;
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
   object-fit: cover;
   margin-bottom: 5px;
 }
